@@ -6,6 +6,7 @@ include "classes/Personnage.php";
 $perso = new personnage();
 
 echo $perso->nom;
+$perso->setnom('Jean-Robert');
 
 echo"<br><br>";
 
@@ -18,6 +19,6 @@ echo $perso2->nom;
 
 
 $perso->walkRight();
-$perso->walkRight();
-$perso->walkRight();
-$perso->walkRight();
+$perso->walkLeft();
+$perso->walkTop();
+$perso->walkBottom();
